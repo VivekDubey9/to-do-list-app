@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">   <!--linked css file to html-->
+    <script src="./main.js" defer></script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <h2 id="heading">Chores</h2>
+        <ul class="itme-container">
+            <li class="item item1"><a href="#showcase">Home</a></li>
+            <li class="item item2"><a href="#task">Tasks</a></li>
+            <li class="item item3"><a href="#signup-here">Signup</a></li>
+            <li class="item item4"><a href="#about">about</a></li>
+        </ul>
+    </nav>
+    <div class="container" id="showcase">
+        <h2 class="subheading"> Manage your Tasks  </h2>
+        <button class="btn btn-primary button-3">Learn More</button>
+        
+    </div>
+    <div class="to-do-section" id="task">
+        <h2>Your plan for today ? </h2>
+        <form action="" class="form-todo">
+            <input type="text" placeholder="add todo">
+            <input type="submit" value="add todo" class="btn button-3">
+        </form>
+        <ul class="todo_list">
+            
+            <!-- <li>
+                <span class="text">Add some text here</span>
+                <div class="todo_buttons">
+                    <button class="tbtn done">Done</button>
+                    <button class=" tbtn remove">Delete</button>
+                </div>
+            </li> -->
+        </ul>
+        
+    </div>
+
+
+    <div class="signup common-container" id="signup-here">
+        <h2>Signup Here</h2>
+        <form action="" class="signup-form common-container">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="" id="email">
+            </div>
+            <div class="form-group">
+                <label for="pass">Password</label>
+                <input type="password" name="" id="pass">
+            </div>
+
+           <div class="form-group">
+            <button type="submit" class="signup-button button-3">Register</button>
+           </div>
+           
+        </form>
+    </div>
+
+
+
+    <!-- <script src="demodom.js"></script>   linked js file to html -->
+</body>
+</html>
